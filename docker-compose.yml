@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15.5
+    container_name: inzynierka-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: inzynierka
+      POSTGRES_PASSWORD: inzynierka_password
+      POSTGRES_DB: inzynierka_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer:latest
+    container_name: inzynierka-adminer
+    restart: always
+    ports:
+      - "8081:8080"
+
+volumes:
+  postgres_data:
