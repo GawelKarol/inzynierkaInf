@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/inzynierka_db
+    username: inzynierka
+    password: inzynierka_password
+    driver-class-name: org.postgresql.Driver
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: merito.kantor@gmail.com
+    password: "veuh hgec ebdm wrcy"
+    properties:
+      mail.mime.charset: UTF-8
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+    from: merito.kantor@gmail.com
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    open-in-view: false
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+logging:
+  level:
+    org.flywaydb: debug
+
+payment:
+  provider-url: http://localhost:9999/mock-provider
+  return-url: http://localhost:3000/payment/return
+  notify-url: http://localhost:8080/api/payments/notify
+  api-key: dummy-key
+  merchant-id: dummy-merchant
+  webhook-url: http://localhost:8080/api/payments/webhook

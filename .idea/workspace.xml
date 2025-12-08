@@ -4,7 +4,109 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4421e9-d0b0-4229-a23d-73ea0eb6d525" name="Changes" comment="" />
+    <list default="true" id="3a4421e9-d0b0-4229-a23d-73ea0eb6d525" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/config/CorsConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/config/SecurityConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/mail/application/TransactionEmailData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/mail/domain/MailSenderAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/mail/domain/TransactionMailSender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/mail/infrastructure/DefaultMailSenderAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/mail/infrastructure/DefaultTransactionMailSender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/mail/infrastructure/MailConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/application/PartnerKeyService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/payment/application/PaymentService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/payment/domain/PaymentGateway.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/payment/domain/PaymentInitDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/payment/domain/PaymentInitResultDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/payment/infrastructure/HttpPaymentGateway.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/shared/domain/RsaSignatureUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/shared/infrastructure/RestTemplateConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/CrossRateService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/TransactionConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/TransactionCreateDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/TransactionService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/TransactionSubmitDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/TransactionVerifyDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/WidgetInitService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/api/CalculateRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/api/WidgetInitRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/api/buildWidgetConfigPayloadToSign.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/domain/Transaction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/domain/TransactionRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/domain/TransactionStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/domain/TransactionVerificationService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/domain/WebhookEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/domain/WebhookSender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/HttpWebhookSender.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/JpaTransactionRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/TransactionController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/TransactionEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/TransactionRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/WidgetController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/db/migration/V3__insert_other_default_values.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/db/migration/V4__add_transaction_columns.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/db/migration/V5__add_more_transaction_columns.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/db/migration/V6__add_next_transaction_columns.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/mail/transaction_completed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/mail/transaction_payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/templates/mail/transaction_verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/commission/CommissionApplicationServiceSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/commission/CommissionCalculatorFactorySpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/commission/CommissionCalculatorSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/commission/CommissionRuleMapperSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/mail/DefaultMailSenderAdapterSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/mail/DefaultTransactionMailSenderSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/rate/RestNBPClientRateProviderSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/transaction/TransactionServiceSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6639171d-2c16-4b00-9715-d9cf300d75ed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6639171d-2c16-4b00-9715-d9cf300d75ed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6639171d-2c16-4b00-9715-d9cf300d75ed/storage_v2/_src_/database/inzynierka_db.u674hQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6639171d-2c16-4b00-9715-d9cf300d75ed/storage_v2/_src_/database/inzynierka_db.u674hQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/application/CommissionApplicationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/application/CommissionApplicationService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/application/CommissionConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/application/CommissionConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/application/CommissionResultDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/application/CommissionResultDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/domain/AppliedCommission.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/domain/AppliedCommission.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/domain/AppliedCommissionsCalculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/domain/AppliedCommissionsCalculator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionCalculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionCalculator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionCalculatorFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionCalculatorFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionKind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionKind.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionRule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionRule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/infrastructure/CommissionRuleEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/infrastructure/CommissionRuleEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/infrastructure/CommissionRuleMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/infrastructure/CommissionRuleMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/infrastructure/CommissionRuleRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/infrastructure/CommissionRuleRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/partner/application/PartnerService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/application/PartnerService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/partner/domain/Partner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/domain/Partner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/partner/domain/PartnerId.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/domain/PartnerId.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/partner/domain/PartnerRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/domain/PartnerRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/partner/infrastructure/PartnerConfigurationEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/infrastructure/PartnerConfigurationEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/partner/infrastructure/PartnerJpaRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/infrastructure/PartnerJpaRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/partner/infrastructure/PartnerRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/partner/infrastructure/PartnerRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/application/RateRefreshService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/application/RateRefreshService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/domain/ExchangeRateRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/domain/ExchangeRateRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/infrastructure/ExchangeRateEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/infrastructure/ExchangeRateEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/infrastructure/ExchangeRateJpaRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/infrastructure/ExchangeRateJpaRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/infrastructure/ExchangeRateRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/infrastructure/ExchangeRateRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/infrastructure/RateNBPConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/infrastructure/RateNBPConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/infrastructure/RateScheduler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/infrastructure/RateScheduler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/rate/infrastructure/RestNBPClientRateProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/rate/infrastructure/RestNBPClientRateProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/shared/domain/FiatCurrency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/shared/domain/FiatCurrency.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/shared/domain/FiatCurrencyCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/shared/domain/FiatCurrencyCode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/shared/domain/FiatRate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/shared/domain/FiatRate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initial.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/db/migration/V1__initial.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__insert_default_commission_rules.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/db/migration/V2__insert_default_commission_rules.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/EnvironmentSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/EnvironmentSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/commission/CommissionApplicationServiceTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/commission/CommissionCalculatorFactoryTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/commission/CommissionCalculatorTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/commission/CommissionRuleMapperTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/rate/NbpClientSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/rate/NbpClientSpec.groovy" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +124,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GawelKarol&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GawelKarol/inzynierkaa.git&quot;,
+    &quot;accountId&quot;: &quot;f1107229-635a-447c-8d11-b3251c4966c6&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -38,13 +152,23 @@
   "keyToString": {
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "JUnit.All in inzynierka.executor": "Run",
+    "JUnit.CommissionApplicationServiceSpec.executor": "Run",
+    "JUnit.CommissionApplicationServiceSpec.should calculate commission result for partner end-to-end.executor": "Run",
+    "JUnit.CommissionApplicationServiceSpec.should calculate commission result for partner.executor": "Run",
+    "JUnit.CommissionApplicationServiceSpringSpec.executor": "Run",
     "JUnit.CommissionApplicationServiceTest.should calculate commission result.executor": "Run",
+    "JUnit.DefaultMailSenderAdapterSpec.executor": "Run",
+    "JUnit.DefaultTransactionMailSenderSpec.executor": "Run",
     "JUnit.EnvironmentSpec.Spring Boot + Groovy + Spock environment works correctly.executor": "Debug",
     "JUnit.NbpClientSpec.executor": "Run",
     "JUnit.NbpClientSpec.should parse NBP response correctly.executor": "Run",
+    "JUnit.TransactionServiceSpec.executor": "Run",
+    "JUnit.TransactionServiceSpec.should generate and send verification code and update transaction.executor": "Run",
+    "JUnit.org.example.inzynierka.mail in inzynierka.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Maven.inzynierka [clean].executor": "Run",
     "Maven.inzynierka [install].executor": "Run",
+    "Maven.inzynierka [package].executor": "Run",
     "Maven.inzynierka [test].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
@@ -53,10 +177,11 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Application.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/doopa/IdeaProjects/inzynierka/src/main/resources/db/migration",
+    "last_opened_file_path": "C:/Users/doopa/IdeaProjects/inzynierka/app/src/main/resources/db/migration",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,20 +202,33 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\doopa\IdeaProjects\inzynierka\app\src\main\resources\db\migration" />
+      <recent name="C:\Users\doopa\IdeaProjects\inzynierka" />
+      <recent name="C:\Users\doopa\IdeaProjects\inzynierka\app" />
+      <recent name="C:\Users\doopa\IdeaProjects\inzynierka\src\main\resources\templates\mail" />
       <recent name="C:\Users\doopa\IdeaProjects\inzynierka\src\main\resources\db\migration" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\doopa\IdeaProjects\inzynierka\app" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.example.inzynierka.transaction.application" />
+      <recent name="org.example.inzynierka.shared.infrastructure" />
+    </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="org.example.inzynierka.mail.infrastructure" />
+      <recent name="org.example.inzynierka.transaction.application.api" />
+      <recent name="org.example.inzynierka.rate.domain" />
       <recent name="org.example.inzynierka.commission.application" />
       <recent name="org.example.inzynierka.commission.infrastructure" />
-      <recent name="org.example.inzynierka.rate.infrastructure" />
-      <recent name="org.example.inzynierka" />
-      <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.inzynierka.commission" />
+      <recent name="org.example.inzynierka.mail" />
       <recent name="org.example.inzynierka.rate" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommissionApplicationServiceTest.should calculate commission result">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="All in inzynierka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inzynierka" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,48 +237,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommissionApplicationServiceTest.should calculate commission result" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DefaultTransactionMailSenderSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inzynierka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.inzynierka.commission.*" />
+          <option name="PATTERN" value="org.example.inzynierka.mail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.inzynierka.commission" />
-      <option name="MAIN_CLASS_NAME" value="org.example.inzynierka.commission.CommissionApplicationServiceTest" />
-      <option name="METHOD_NAME" value="should calculate commission result" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NbpClientSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inzynierka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.inzynierka.rate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.inzynierka.rate" />
-      <option name="MAIN_CLASS_NAME" value="org.example.inzynierka.rate.NbpClientSpec" />
+      <option name="PACKAGE_NAME" value="org.example.inzynierka.mail" />
+      <option name="MAIN_CLASS_NAME" value="org.example.inzynierka.mail.DefaultTransactionMailSenderSpec" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NbpClientSpec.should parse NBP response correctly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionServiceSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inzynierka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.inzynierka.rate.*" />
+          <option name="PATTERN" value="org.example.inzynierka.transaction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.inzynierka.rate" />
-      <option name="MAIN_CLASS_NAME" value="org.example.inzynierka.rate.NbpClientSpec" />
-      <option name="METHOD_NAME" value="should parse NBP response correctly" />
+      <option name="PACKAGE_NAME" value="org.example.inzynierka.transaction" />
+      <option name="MAIN_CLASS_NAME" value="org.example.inzynierka.transaction.TransactionServiceSpec" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionServiceSpec.should generate and send verification code and update transaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inzynierka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.inzynierka.transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.inzynierka.transaction" />
+      <option name="MAIN_CLASS_NAME" value="org.example.inzynierka.transaction.TransactionServiceSpec" />
+      <option name="METHOD_NAME" value="should generate and send verification code and update transaction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CommissionApplicationServiceTest.should calculate commission result" />
-        <item itemvalue="JUnit.All in inzynierka" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.NbpClientSpec.should parse NBP response correctly" />
-        <item itemvalue="JUnit.NbpClientSpec" />
+        <item itemvalue="JUnit.All in inzynierka" />
+        <item itemvalue="JUnit.TransactionServiceSpec.should generate and send verification code and update transaction" />
+        <item itemvalue="JUnit.TransactionServiceSpec" />
+        <item itemvalue="JUnit.DefaultTransactionMailSenderSpec" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +333,8 @@
       <workItem from="1764497541183" duration="1220000" />
       <workItem from="1764624675471" duration="3841000" />
       <workItem from="1764657906216" duration="20957000" />
-      <workItem from="1764689819836" duration="2609000" />
+      <workItem from="1764689819836" duration="14550000" />
+      <workItem from="1764748757899" duration="27742000" />
     </task>
     <servers />
   </component>
@@ -250,15 +388,48 @@
           <line>18</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/TransactionRepositoryImpl.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/TransactionController.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/application/TransactionService.kt</url>
+          <line>208</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionCalculator.kt</url>
+          <line>14</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/transaction/infrastructure/TransactionController.kt</url>
+          <line>71</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/rate/NbpClientSpec.groovy</url>
           <line>12</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/test/groovy/org/example/inzynierka/commission/CommissionApplicationServiceSpec.groovy</url>
+          <line>21</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/commission/domain/CommissionCalculator.kt</url>
           <line>16</line>
-          <properties class="org.example.inzynierka.commission.domain.CommissionCalculator" method="onTop">
+          <properties class="org.example.inzynierka.commission.domain.CommissionCalculator">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -267,11 +438,38 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/test/groovy/org/example/inzynierka/commission/CommissionApplicationServiceTest.kt</url>
           <line>26</line>
-          <properties class="org.example.inzynierka.commission.CommissionApplicationServiceTest" method="should calculate commission result">
+          <properties class="org.example.inzynierka.commission.CommissionApplicationServiceTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/Application.kt</url>
+          <line>10</line>
+          <properties>
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/org/example/inzynierka/payment/infrastructure/PaymentConfig.kt</url>
+          <line>7</line>
+          <properties class="org.example.inzynierka.payment.infrastructure.PaymentConfig">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/org/example/inzynierka/commission/infrastructure/CommissionRuleRepository.kt</url>
+          <line>6</line>
+          <properties class="org.example.inzynierka.commission.infrastructure.CommissionRuleRepository" method="findByPartnerId">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
